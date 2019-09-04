@@ -1,0 +1,50 @@
+.youtube-wrapper {
+    display: inline-block;
+    width: 210px;
+    box-sizing: border-box;
+    margin-right: 12px;
+}
+
+.img-thumb {
+    width: 300px;
+    height: 110px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-thumb img {
+    width: 200px;
+}
+
+p.time {
+    position: absolute;
+    color: white;
+    bottom: 6px;
+    right: 110px;
+    margin: 0;
+    background: black;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+p.title {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px;
+    margin-top: 10px;
+    color: #262d2d;
+
+}
+
+p.desc {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px;
+    margin-top: 0px;
+    color: #626262;
+
+}
